@@ -1,15 +1,16 @@
 import React from "react";
-import { BrowserRouter as Router, Switch, Route, Link} from "react-router-dom";
-import Login from "./pages/Login";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import Login from "./pages/Login"
 import Users from "./pages/Users";
+import Header from "./pages/Header"
+import Footer from "./pages/Footer"
 
 export default function App() {
   return (
     <Router>
-      {/* <h1>
-        <Link to="users">Users</Link>
-      </h1> */}
 
+      <Header />
+      
       <Switch>
         <Route path="/users">
           <Users />
@@ -18,6 +19,9 @@ export default function App() {
           <Login />
         </Route>
       </Switch>
+
+      {/* <Footer /> */}
+      
     </Router>
   );
 }

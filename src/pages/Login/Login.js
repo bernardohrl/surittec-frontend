@@ -1,5 +1,5 @@
 import React from "react";
-import logo from '../assets/logo.svg'
+import logo from '../../assets/logo.svg'
 import './Login.css'
 
 class Login extends React.Component {
@@ -18,7 +18,7 @@ class Login extends React.Component {
                                 <div className="form-group">
                                     <input type="text" id="login" className="form-control fadeIn second" name="login" placeholder="Login"/>
                                     <input type="password" id="password" className="form-control fadeIn third" name="login" placeholder="Password"/>
-                                    <input type="submit" className="btn fadeIn fourth" value="Log In"/>
+                                    <input type="submit" className="btn fadeIn fourth my-4" value="Log In"/>
                                 </div>
                             </form>
                         </div>
