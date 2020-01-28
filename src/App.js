@@ -6,9 +6,9 @@ import Users from "./pages/Users";
 export default function App() {
   return (
     <Router>
-      <h1>
+      {/* <h1>
         <Link to="users">Users</Link>
-      </h1>
+      </h1> */}
 
       <Switch>
         <Route path="/users">

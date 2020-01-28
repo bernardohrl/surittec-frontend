@@ -3,9 +3,11 @@ import { PropTypes } from "prop-types";
 
 
 export default function UsersList({users}) {
+   console.log(users);
+   
    return (
     <div>
-       {users.name}
+      {users.length === 0 ? 'null' : users[0].name}
     </div>
    )
 }
